@@ -126,7 +126,7 @@ STATIC_URL = '/static/'
 CORS_ALLOWED_ORIGINS = [
     # '*',
     "http://localhost:3000",
-    "https://elgoog.onrender.com/",
+    "https://elgoog.onrender.com",
 ]
 
 # Default primary key field type
