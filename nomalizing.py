@@ -1,7 +1,7 @@
 # from enchant import Dict
 from pythainlp import correct
 from pythainlp.util import isthai
-from textblob import TextBlob, Word
+# from textblob import TextBlob, Word
 
 
 # d = Dict("en_US")
