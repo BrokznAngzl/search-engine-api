@@ -16,7 +16,7 @@ ALLOWED_HOSTS = [
     '*'
     # 'localhost',
     # 'search-engine-api-lwfl.onrender.com',
-    # '.vercel.app
+    # '.vercel.app'
 ]
 
 # Application definition
