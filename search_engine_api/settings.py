@@ -13,8 +13,9 @@ SECRET_KEY = 'django-insecure-#dz-$46=x(y_%$k#tzn7!!ccvcpqvz33q53h#-^c7xe1b_8g5v
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'search-engine-api-lwfl.onrender.com',
-    '.vercel.app'
+    '*'
+    # 'search-engine-api-lwfl.onrender.com',
+    # '.vercel.app'
 ]
 
 # Application definition
