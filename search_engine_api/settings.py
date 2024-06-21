@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,6 +16,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'search-engine-api-lwfl.onrender.com',
     '.vercel.app'
+    '.now.sh'
 ]
 
 # Application definition
@@ -131,6 +133,10 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://elgoog.onrender.com",
 ]
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "ui/static")]
+STATIC_URL = "static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "ui/staticfiles")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
