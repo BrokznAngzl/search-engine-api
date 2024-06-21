@@ -14,6 +14,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'search-engine-api-lwfl.onrender.com',
+    '.vercel.app'
 ]
 
 # Application definition
